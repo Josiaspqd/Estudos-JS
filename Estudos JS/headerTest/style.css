@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    
+}
+
+.Container-header{
+    background-color: hsl(180, 57%, 67%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Container-header nav{
+    display: flex;
+    list-style: none;
+
+}
+.Container-header nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    
+}
+#About{
+    background-color: rgb(86, 230, 230);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+}
+.Container-header a img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
