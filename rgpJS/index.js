@@ -1,6 +1,6 @@
 const statuspers = document.getElementById('status-personagem')
 const persContainer = document.getElementById('container')
-const btn = document.getElementById('btn-enimy')
+const btn = document.getElementById('btn-enemy')
 
 
 class Personagens{
@@ -45,7 +45,7 @@ persContainer.innerHTML = ` <p>id: ${guerreiro.id}<p/><br>
 
 
 
-function Enimy(){
+function Enemy(){
     for(let i = 0 ; i<3;i++){
         guerreiro.vitalidade -=201;
         statuspers.innerHTML += `Dano ${i +1} > Vitalidade do personagem: ${guerreiro.vitalidade} <br>` 
